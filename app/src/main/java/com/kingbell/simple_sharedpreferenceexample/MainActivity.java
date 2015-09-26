@@ -37,7 +37,6 @@ public class MainActivity extends ActionBarActivity {
         editor.putString("Name",userName.getText().toString());
         editor.putString("Password",password.getText().toString());
         editor.commit();
-
     }
 
     public void loadPreferences(View view) {
